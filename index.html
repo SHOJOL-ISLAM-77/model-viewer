@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <title>Model Viewer</title>
+</head>
+
+<body>
+    <div class="container">
+        <model-viewer alt="testing glb file" src="./Biomech_Mutant_Skin_1.glb" ar
+            ar-modes="scene-viewer quick-look webxr" shadow-intensity="1" camera-controls touch-action="pan-y"
+            loading="lazy"
+            poster="https://img-new.cgtrader.com/items/2357401/2656b01ada/large/free-biomechanical-mutant-3d-model-low-poly-rigged-max-fbx-unitypackage-uasset-gltf.jpg">
+            <button slot="ar-button" class="ar-button">View in AR</button>
+        </model-viewer>
+    </div>
+    <div class="container">
+        <model-viewer alt="testing glb file" src="./Biomech_Mutant_Skin_2.glb" ar shadow-intensity="1" camera-controls
+            touch-action="x-pay" loading="lazy"
+            poster="https://img-new.cgtrader.com/items/2357401/2656b01ada/large/free-biomechanical-mutant-3d-model-low-poly-rigged-max-fbx-unitypackage-uasset-gltf.jpg">
+        </model-viewer>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
